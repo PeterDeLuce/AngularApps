@@ -1,0 +1,7 @@
+/* Simple css sheet for the Hello Angular project */
+h1 { color: #000000; 
+    font-style: bold;
+  }
+.description {
+    color: black;
+}

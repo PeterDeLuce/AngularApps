@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Number Game</title>
+        <base href="/">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    </head>
+    <body ng-app="my-app">
+            <div class="container" ng-controller="GuessTheNumberController">
+                <h1>Guess the Number</h1>
+                <h3>Guess a number between 1 and 10</h3>
+                <label>Your Guess: </label><input type="number" ng-model="guess"/>
+                <button ng-click="makeGuess()" class="btn btn-primary btn-sm">Enter</button>	
+                <button ng-click="restartGame()" class="btn btn-warning btn-sm">Restart</button>	
+            </div>
+            <mw-app></mw-app>
+            <script src="script.js"></script>
+    </body>
+</html>
